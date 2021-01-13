@@ -1,31 +1,19 @@
 import React from 'react';
-import ReactDom from 'react-dom';
 import {Component} from 'react';
+
 import logo from '../styles/home.css';
-import Head from './nav.js'
-import About from './about'
-import { 
-    BrowserRouter as Router, 
-    Route, 
-    Link, 
-    Switch,
-    HashRouter,
-  } from 'react-router-dom'; 
+
+
+
     class Home  extends React.Component
   {
     render(){
         return(
-            <div>
-                 <Head/>
-                 Welcome Guest!
-                 <Router>
-                
-                    <Route exact path ='/' component={Home}> </Route>
-                    <Route exact path='/about' component={About}></Route> 
-                    
-
-                
-                 </Router>
+       
+            <div class="logo">
+              Welcome Home
+              <img src="https://lh3.googleusercontent.com/proxy/sRP9HU8QUm-s361TUmNBcWnlmYycxV8fmaNis-AoV86F8YfeKrj1y6LpD4Y4MnDOV8ZArTAFnudmdP667QjLgWtWZKtfZ5M"></img>
+           
             </div>
         )
     }

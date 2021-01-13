@@ -1,10 +1,9 @@
 .header{
-    background-color: darkgray;
+  
     box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
 }
 .navlist{
-    color: crimson;
-    background-color: darkgray;
+    color:darkgreen;
     display:inline-block;
     margin-right:10%;
     margin-left: 0%;
@@ -14,6 +13,29 @@
     font-weight: bold;
 }
 .navlist:hover{
-    color: black;
-
+    color: black;  
+}
+.login{
+    background-color:darkslategray;
+    padding:25% 40%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    border-color:darkslategray;
+    font-size: 1.2rem ;
+    color:whitesmoke;
+    
+}
+.login:hover{
+    background-color: tomato;
+    border-color:tomato;
+}
+.sign{
+    background-color:violet;
+    border-color:violet;
+    font-size: 1.1rem;
+    padding:25% 30%;
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+.sign:hover{
+    background-color: tomato;
+    border-color:tomato;
 }

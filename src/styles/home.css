@@ -1,12 +1,15 @@
 .logo{
-    background-color: blue;
-    color: crimson;
+    background-color:cadetblue;
+    color:darkblue;
 }
 body{
  margin-top: 0px;
+ 
 }
 ul{
-    margin-top: 0%;
+    margin: 0%;
+    padding-left: 0%;
+
 }
 h1{
     color:blue;
